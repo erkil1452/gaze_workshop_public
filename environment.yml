@@ -12,6 +12,7 @@ dependencies:
   - imageio
   - scikit-learn
   - jupyter
+  - notebook
   - dlib
   - pip:
     - nbimporter

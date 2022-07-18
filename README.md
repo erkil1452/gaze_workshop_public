@@ -34,3 +34,6 @@ Download the zip file with data separately from [Google Drive](https://drive.goo
 
 Use the `Issues` tab on github to ask for help.
 
+## Usage
+
+Follow instructions in [tutorial_instructions.pptx](https://github.com/erkil1452/gaze_workshop_public/blob/master/tutorial_instructions.pptx) for further instructions.
