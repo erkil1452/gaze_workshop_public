@@ -36,4 +36,9 @@ Use the `Issues` tab on github to ask for help.
 
 ## Usage
 
+1. Open you terminal with `conda` and navigate to the folder containing this `README.md`.
+2. `cd notebooks`
+3. `conda activate gaze`
+4. `jupyter notebook`
+
 Follow instructions in [tutorial_instructions.pptx](https://github.com/erkil1452/gaze_workshop_public/blob/master/tutorial_instructions.pptx) for further instructions.
