@@ -1,0 +1,1 @@
+Download the zip file with data separately from [Google Drive](https://drive.google.com/file/d/1-1VIHfi4s_bxiRvk9-cKdlnl4DaF_YzM/view?usp=sharing) and unzip its content *directly* this folder such that there are folders `data/samples`, etc.
