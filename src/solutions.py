@@ -79,7 +79,7 @@ def crop_image(image: np.array, rectangle: dlib.rectangle, scale_factor: float =
 def numpy_image_to_tensor(im: np.array, input_size: tuple = (127, 127)) -> torch.Tensor:
     """ Converts a numpy image to network input tensor of a fixed size input_size. """
     # 1. Resize to expected size.
-    im = cv2.resize(im, input_size, interpolation=cv2.INTER_AREA)
+    im = cv2.resize(im, tuple(np.array(input_size).astype(int)), interpolation=cv2.INTER_AREA)
     # 2. Convert to float32 and normalize to [-1,1].
     im = im.astype(np.float32) / 255 * 2 - 1
     # 3. Convert to torch.tensor.
