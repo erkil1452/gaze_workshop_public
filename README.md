@@ -42,3 +42,9 @@ Use the `Issues` tab on github to ask for help.
 4. `jupyter notebook`
 
 Follow instructions in [tutorial_instructions.pptx](https://github.com/erkil1452/gaze_workshop_public/blob/master/tutorial_instructions.pptx) for further instructions.
+
+## Google Colab
+
+In case of issues with local environment a slightly modified version of the tutorial is available on [Google Colab](https://colab.research.google.com/drive/193dAJx_sDx1f6rO6_JtVmbyJzomxzYQY?usp=sharing). 
+
+By default, GPU is disabled which prevents the CNN face detector from working. `Runtime`->`Change Runtime type` and select `Hardware accelerator = GPU` to enable GPU support (CUDA). However, note that this introduces a limit on working time for free accounts. All other parts of the tutorial are functional without the GPU support.
