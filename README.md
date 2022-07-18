@@ -24,11 +24,11 @@ The tutorial is implemented as a jupyter notebook and utilizes python 3.9 and py
 2. `conda env create -f environment.yml`
 3. `conda activate gaze`
 
-Refer to [conda manual]() for more details if needed.
+Refer to [conda manual](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for more details if needed.
 
 ### Data
 
-Download the zip file with data separately from [LINK COMMING SOON](...) and unzip its content *directly* to the folder `data` such that there are folders `data/samples`, etc.
+Download the zip file with data separately from [Google Drive](https://drive.google.com/file/d/1-1VIHfi4s_bxiRvk9-cKdlnl4DaF_YzM/view?usp=sharing) and unzip its content *directly* to the folder `data` such that there are folders `data/samples`, etc.
 
 ### Help
 
