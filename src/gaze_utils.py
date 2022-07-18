@@ -54,8 +54,11 @@ def show_images(imgs, titles=None):
     axs = np.atleast_1d(axs)
     for i,im in enumerate(imgs):
         im = to_numpy_image(im)
-        if len(im.shape) == 3 and im.shape[2] > 4:
-            im = im_pca(im)            
+        if len(im.shape) == 3:
+            if im.shape[2] == 1:
+                im = im[...,0]
+            if im.shape[2] > 4:
+                im = im_pca(im)            
         axs[i].imshow(im, cmap='gray')
         axs[i].axis('off')
         if titles is not None:
