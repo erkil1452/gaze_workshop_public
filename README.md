@@ -27,6 +27,9 @@ The tutorial is implemented as a jupyter notebook and utilizes python 3.9 and py
 
 Refer to [conda manual](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for more details if needed.
 
+Note that the environment is the same as the one used for the [classification tutorial](https://github.com/ccp-eva/tuto_classification) by Pierre-Etienne, so you only need to create it once.
+
+
 ### Data
 
 Download the zip file with data separately from [Google Drive](https://drive.google.com/file/d/1-1VIHfi4s_bxiRvk9-cKdlnl4DaF_YzM/view?usp=sharing) and unzip its content *directly* to the folder `data` such that there are folders `data/samples`, etc.
@@ -43,10 +46,6 @@ Use the `Issues` tab on github to ask for help.
 4. `jupyter notebook`
 
 Follow instructions in [tutorial_instructions.pptx](https://github.com/erkil1452/gaze_workshop_public/blob/master/tutorial_instructions.pptx) for further instructions.
-
-### Note
-
-The environment is the same as the one used for the [classification tutorial](https://github.com/ccp-eva/tuto_classification) by Pierre-Etienne, so you only need to create it once.
 
 ## Google Colab
 
