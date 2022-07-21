@@ -1,3 +1,6 @@
+*See the [Workshop Webpage](https://www.primate-cognition.eu/de/veranstaltungen/bridging-the-technological-gap-workshop.html) for the context of this tutorial.* <br>
+*See the [Workshop Hands-on Instructions](https://www.primate-cognition.eu/de/veranstaltungen/bridging-the-technological-gap-workshop/hands-on-sessions) for initial installation steps.*
+
 # Video-Based Gaze Tracking Tutorial
 
 This is a repository for the Video-Based Gaze Tracking tutorial of the [Bridging the Technological Gap Summer Workshop](https://psychandneuro.duke.edu/opportunity/bridging-technological-gap-summer-workshop), July 31st – August 6th, 2022, German Primate Center, Göttingen, Germany.
@@ -6,9 +9,7 @@ Made by Petr Kellnhofer, 2022.
 
 ## Preparation
 
-Please take these steps before the start of the tutorial.
-
-**This tutorial is currently under development. Please pull the latest changes before the tutorial (`git pull`).**
+Please take these steps before the start of the tutorial. Also please pull the latest code update (`git pull`) before the tutorial starts in case of last minute changes.
 
 ### Requirements
 
@@ -38,10 +39,14 @@ Use the `Issues` tab on github to ask for help.
 
 1. Open you terminal with `conda` and navigate to the folder containing this `README.md`.
 2. `cd notebooks`
-3. `conda activate gaze`
+3. `conda activate env_workshop`
 4. `jupyter notebook`
 
 Follow instructions in [tutorial_instructions.pptx](https://github.com/erkil1452/gaze_workshop_public/blob/master/tutorial_instructions.pptx) for further instructions.
+
+### Note
+
+The environment is the same as the one used for the [classification tutorial](https://github.com/ccp-eva/tuto_classification) by Pierre-Etienne, so you only need to create it once.
 
 ## Google Colab
 
