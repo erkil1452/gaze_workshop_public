@@ -23,7 +23,7 @@ The tutorial is implemented as a jupyter notebook and utilizes python 3.9 and py
 
 1. Open you terminal with `conda` and navigate to the folder containing this `README.md`.
 2. `conda env create -f environment.yml`
-3. `conda activate gaze`
+3. `conda activate env_workshop`
 
 Refer to [conda manual](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for more details if needed.
 
